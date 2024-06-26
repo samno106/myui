@@ -15,6 +15,7 @@ const Hero = () => {
           </p>
           <Button
             variant="outlined"
+            sx={{borderRadius:0}}
             className="!mt-5 !border-2 !border-white !px-5 !normal-case !text-white !bg-blue-500 !hover:bg-blue-600"
           >
             Using this roadmap
