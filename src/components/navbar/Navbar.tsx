@@ -551,12 +551,18 @@ const Navbar = () => {
               inputProps={{
                 "aria-label": "weight",
               }}
+              sx={{
+                borderRadius:0
+              }}
               className="h-[35px] !text-xs !border-gray-400"
             />
           </FormControl>
 
           <Button
             variant="outlined"
+            sx={{
+              borderRadius:0
+            }}
             onClick={() => onOpenSearch(false)}
             className="!text-xs !py-2 !border-gray-400 !text-gray-500"
           >
