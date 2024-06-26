@@ -362,11 +362,11 @@ const Navbar = () => {
                           },
                         }}
                         transformOrigin={{
-                          horizontal: "right",
+                          horizontal: "left",
                           vertical: "top",
                         }}
                         anchorOrigin={{
-                          horizontal: "right",
+                          horizontal: "left",
                           vertical: "bottom",
                         }}
                       >

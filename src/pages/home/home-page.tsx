@@ -8,6 +8,9 @@ export default class HomePage extends Component {
       <>
         <Hero />
         <Filter />
+        <div className="h-[500px]">
+
+        </div>
       </>
     );
   }
